@@ -1,0 +1,20 @@
+CSE143 HW1
+Done by Mamon Alsalihy and Adarsh Sekar
+malsalih, adsekar
+
+Program:
+This program builds a dictionary based on different ngram models, unigram, bigram and trigram. Using the different models dictionaries, it calculates the 
+probabilities of the texts occuring based on the probabilites of words, or groups of words, and then prints the perplexities for 3 different texts for each 
+of the three ngram models, unary, binary and trigram.
+
+
+Running:
+To run the program, make sure that the files you are in the folder labeled Asg1, as they should be when submitted.
+Simply call python3 ngram.py to run on the unix terminal to run, or windows bash to run.
+
+Output:
+Output is printed in CLI.
+
+Bugs:
+The perplexities of of dev and training are slightly different in our program, though we don't know if they have to be the exact same, or if they can be slightly different 
+as in our case. Other than this, there are no bugs that we are aware of during the time of submission
